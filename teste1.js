@@ -1,14 +1,14 @@
 function livro (nome, ano, autor) {
     resultado_livro = {
         nome_upper: nome.toUpperCase(),
-        ano: 2023 - ano,
+        anos_da_criacao: 2023 - ano,
         frase: nome + ' por ' + autor,
     }
     return resultado_livro;
 }
 
 resultado = livro ('O Senhor dos Aneis', 1984, 'J R R Tolkien')
-console.log (resultado)
+console.log (resultado.frase)
 
 /* function checkout(produto, quantidade) {
     const total = produto.preco * quantidade;
